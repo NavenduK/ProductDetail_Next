@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { CartContext } from "../cartProvider";
 import styles from "./index.module.css";
 import utils from "../utils.module.css";

@@ -5,12 +5,6 @@ import styles from "./index.module.css";
 import utils from "../utils.module.css";
 import Lightbox from "../lightBox";
 
-// Define types for images
-interface Image {
-  src: string;
-  id?: string; // Optional, for slider images
-}
-
 interface Images {
   mainImgs: string[];
   thumbnails: string[];

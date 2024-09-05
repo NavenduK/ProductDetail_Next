@@ -4,7 +4,6 @@ import { CartContext } from "../cartProvider";
 import styles from "./index.module.css";
 import utils from "../utils.module.css";
 import { useState, useContext } from "react";
-
 // Define the props interface
 interface AddToCartProps {
   name: string;

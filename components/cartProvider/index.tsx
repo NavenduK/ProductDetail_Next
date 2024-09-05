@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext, ReactNode, Dispatch, SetStateAction } from "react";
+import React, { createContext, useState, ReactNode, Dispatch, SetStateAction } from "react";
 
 interface CartItem {
   name: string;

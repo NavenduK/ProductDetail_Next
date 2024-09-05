@@ -2,11 +2,6 @@ import React from 'react';
 import styles from "./index.module.css";
 import utils from "../utils.module.css";
 
-// Define types for the props
-interface Image {
-  src: string;
-}
-
 interface LightboxProps {
   showLightbox: boolean;
   imgIndex: number;
